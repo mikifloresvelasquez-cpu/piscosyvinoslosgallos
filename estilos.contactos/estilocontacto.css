@@ -1,0 +1,63 @@
+form{
+    padding: 50px 55px;
+    box-shadow: 0 0 20px black;
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+h2{
+    color: aqua;
+    font-size: 25px;
+}
+label{
+    color: aquamarine;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input, textarea{
+    padding: 17px 25px;
+    border-radius: 15px;
+    background-color: blueviolet;
+    border: 2px;
+    outline: none;
+}
+input::placeholder, textarea::placeholder{
+    color: rosybrown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-txt a{
+    color: blueviolet;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btn{
+    font-size: 16px;
+    color: aquamarine;
+    border-radius: 25px;
+    background-color: bisque;
+    box-shadow: 0 0 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: aquamarine;
+}
+@media(max-width:900px){
+    body{
+        
+    
+    padding: 30px;
+}
+form{
+    padding: 50px 30px;
+    width: 100;
+}
+input{
+    padding: 10px;
+}
+}
